@@ -1,1 +1,1 @@
-Sitemap: https://jyje.github.io/lab/sitemap.xml
+Sitemap: https://lab.jyje.me/sitemap.xml
