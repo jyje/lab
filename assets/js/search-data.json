@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Hello .NET Interactive",
-            "content": "You can test C#/.NET with jupyter notebook. If you want to import some nuget packages from online. Just add like this: . . Installed PackagesNewtonsoft.Json, 13.0.1 | . I wrote a code that simply expresses the period I studied &#39;.Net&#39;. . using Newtonsoft.Json.Linq; DateTime begin = new(2016,3,1); DateTime now = DateTime.Now; var years = Enumerable.Range(begin.Year, now.Year-begin.Year+1); JObject json = new() { [&quot;content&quot;] = &quot;.NET study&quot;, [&quot;years&quot;] = JArray.FromObject(years), }; Console.WriteLine($&quot;{nameof(json)}: n{json}&quot;); . json: { &#34;content&#34;: &#34;.NET study&#34;, &#34;years&#34;: [ 2016, 2017, 2018, 2019, 2020, 2021, 2022 ] } .",
+            "content": "You can test C#/.NET with jupyter notebook. If you want to import some nuget packages from online. Just add like this: . //#r &quot;nuget: Newtonsoft.Json&quot; . Installed PackagesNewtonsoft.Json, 13.0.1 | . I wrote a code that simply expresses the period I studied &#39;.Net&#39;. . using Newtonsoft.Json.Linq; DateTime begin = new(2016,3,1); DateTime now = DateTime.Now; var years = Enumerable.Range(begin.Year, now.Year-begin.Year+1); JObject json = new() { [&quot;content&quot;] = &quot;.NET study&quot;, [&quot;years&quot;] = JArray.FromObject(years), }; Console.WriteLine($&quot;{nameof(json)}: n{json}&quot;); . json: { &#34;content&#34;: &#34;.NET study&#34;, &#34;years&#34;: [ 2016, 2017, 2018, 2019, 2020, 2021, 2022 ] } .",
             "url": "https://lab.jyje.me/dotnet/json/2022/10/29/hello_dotnet_interactive.html",
             "relUrl": "/dotnet/json/2022/10/29/hello_dotnet_interactive.html",
             "date": " • Oct 29, 2022"
